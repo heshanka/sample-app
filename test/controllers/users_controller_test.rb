@@ -31,4 +31,6 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to login_url
   end
 
+  #TEST FOR CHECKING ADMIN CANNOT BE ACCESSED FROM OUTSIDE
+
 end
